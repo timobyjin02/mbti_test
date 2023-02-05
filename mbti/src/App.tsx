@@ -4,7 +4,7 @@ import MainPage from "./pages/MainPage";
 import QuestionPage from "./pages/QuestionPage";
 import ResultPage from "./pages/ResultPage";
 
-function App() {
+function App(): React.ReactElement {
   return (
     <Routes>
       <Route path="/" element={<MainPage />} />
